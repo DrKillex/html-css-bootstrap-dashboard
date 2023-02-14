@@ -1,18 +1,17 @@
 /* font-family: 'Roboto', sans-serif; */
 
 /* debug */
-
-body {
-    height: 100vh;
+.debug #main-top .col {
+    background-color: pink;
 }
+
+.debug #main-top {
+    background-color: green;
+}
+
 
 .debug header {
     background-color: red;
-    height: 70px;
-}
-
-main {
-    height: calc(100% - 70px);
 }
 
 .debug #side-nav {
@@ -51,3 +50,4 @@ main {
 #side-nav li {
     list-style: none;
 }
+
