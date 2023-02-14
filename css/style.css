@@ -45,3 +45,9 @@ main {
 #main-section {
     height: 100%;
 }
+
+/* side-nav */
+
+#side-nav li {
+    list-style: none;
+}
