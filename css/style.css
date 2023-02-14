@@ -1,31 +1,10 @@
 /* font-family: 'Roboto', sans-serif; */
 
-/* debug */
-.debug #main-top .col {
-    background-color: pink;
-}
-
-.debug #main-top {
-    background-color: green;
-}
-
-
-.debug header {
-    background-color: red;
-}
-
-.debug #side-nav {
-    background-color: blue;
-}
-
-.debug #main-section {
-    background-color: aqua;
-}
-
 /* common */
 
 body {
     height: 100vh;
+    width: 100%;
 }
 
 header {
@@ -45,9 +24,34 @@ main {
     height: 100%;
 }
 
+/* header */
+
+header .row a i {
+    color: #5b5858;
+}
+
+header .row a:last-child i {
+    color: #ff8f00;
+}
+
 /* side-nav */
+
+#side-nav {
+    background: url('../img/sidebar-bg.png');
+    background-color: #051e34;
+}
 
 #side-nav li {
     list-style: none;
 }
 
+#side-nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* main-top */
+
+#main-top {
+    background-color: #1b72e8;
+}

@@ -16,25 +16,29 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="debug">
+<body>
     <!-- header -->
     <header>
         <div class="container-fluid h-100">
             <div class="row align-items-center h-100">
-                <div class="col-2">
-                    <a href="#" class="d-lg-none">logo</a>
-                    <a href="#" class="d-none d-lg-block">logo alt</a>
+                <div class="col-1 col-lg-2">
+                    <a href="#" class="d-lg-none">
+                        <img src="img/mobile-logo.png" alt="logo" class="img-fluid">
+                    </a>
+                    <a href="#" class="d-none d-lg-block">
+                        <img src="img/logo.svg" alt="logo"  class="img-fluid">
+                    </a>
                 </div>
-                <div class="col-8">
+                <div class="col-10 col-lg-8">
                     <form class="d-flex" role="search">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                     </form>
                 </div>
-                <div class="col-2">
+                <div class="col-1 col-lg-2 text-end">
                     <a href="#" class="d-none d-lg-inline-block"><i class="fa-solid fa-list"></i></a>
-                    <a href="#" class="d-none d-lg-inline-block"><i class="fa-solid fa-circle-question"></i></a>
-                    <a href="#" class="d-none d-lg-inline-block"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                    <a href="#"><i class="fa-solid fa-bell"></i></a>
+                    <a href="#" class="d-none d-lg-inline-block ms-2"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" class="d-none d-lg-inline-block ms-2"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    <a href="#" class="ms-lg-2"><i class="fa-solid fa-bell"></i></a>
                 </div>
             </div>
         </div>
@@ -43,22 +47,22 @@
     <!-- main -->
     <main class="d-flex">
         <section id="side-nav">
-            <div class="row flex-column h-100">
+            <div class="row flex-column h-100 text-white">
                 <div class="col flex-grow-0">
                     <ul class="p-0">
-                        <li>
-                            <a href="#">i <span>testo</span></a>
+                        <li class="mb-2">
+                            <a href="#"><i class="fa-solid fa-house"></i> <span class="d-none d-lg-inline-block">Home</span></a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"><i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline-block">Stats</span></a>
                         </li>
                         <li>
-                            <a href="#">i <span>testo</span></a>
-                        </li>
-                        <li>
-                            <a href="#">i <span>testo</span></a>
+                            <a href="#"><i class="fa-solid fa-signal"></i> <span class="d-none d-lg-inline-block">Signals</span></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col mt-auto flex-grow-0">
-                    <a href="#">i <span>testo</span></a>
+                    <a href="#"><i class="fa-solid fa-gear"></i> <span class="d-none d-lg-inline-block">Admin</span></a>
                 </div>
             </div>
         </section>
