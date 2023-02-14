@@ -1,0 +1,47 @@
+/* font-family: 'Roboto', sans-serif; */
+
+/* debug */
+
+body {
+    height: 100vh;
+}
+
+.debug header {
+    background-color: red;
+    height: 70px;
+}
+
+main {
+    height: calc(100% - 70px);
+}
+
+.debug #side-nav {
+    background-color: blue;
+}
+
+.debug #main-section {
+    background-color: aqua;
+}
+
+/* common */
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 70px;
+}
+
+main {
+    height: calc(100% - 70px);
+}
+
+#side-nav {
+    height: 100%;
+    padding: 1.25rem;
+}
+
+#main-section {
+    height: 100%;
+}
