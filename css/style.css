@@ -45,6 +45,11 @@ header .row .bell {
 
 #side-nav li {
     list-style: none;
+    padding: 5px;
+}
+
+#side-nav li:hover {
+    background-color: rgba(108, 117, 125, 0.6);
 }
 
 #side-nav a {
