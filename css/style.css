@@ -22,6 +22,7 @@ main {
 
 #main-section {
     height: 100%;
+    overflow-y: auto;
 }
 
 /* header */
@@ -50,8 +51,19 @@ header .row a:last-child i {
     text-decoration: none;
 }
 
+#side-nav i {
+    width: 30px;
+}
+
 /* main-top */
 
 #main-top {
     background-color: #1b72e8;
+}
+
+/* table */
+
+table img {
+    width: 1.875rem;
+    margin-right: .625rem;
 }
