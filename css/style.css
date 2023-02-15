@@ -31,8 +31,9 @@ header .row a i {
     color: #5b5858;
 }
 
-header .row a:last-child i {
+header .row .bell {
     color: #ff8f00;
+    text-decoration: none;
 }
 
 /* side-nav */
@@ -59,6 +60,10 @@ header .row a:last-child i {
 
 #main-top {
     background-color: #1b72e8;
+}
+
+#main-top .badge {
+    background-color: #144a96;
 }
 
 /* table */

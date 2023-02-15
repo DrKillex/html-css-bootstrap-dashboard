@@ -43,7 +43,16 @@
                     <a href="#" class="d-none d-lg-inline-block"><i class="fa-solid fa-list"></i></a>
                     <a href="#" class="d-none d-lg-inline-block ms-2"><i class="fa-solid fa-circle-question"></i></a>
                     <a href="#" class="d-none d-lg-inline-block ms-2"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                    <a href="#" class="ms-lg-2"><i class="fa-solid fa-bell"></i></a>
+                    <div class="dropdown bell d-lg-inline-block">
+                        <a class="dropdown-toggle bell" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell bell"></i>
+                        </a>         
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </div>
@@ -77,10 +86,23 @@
         <section id="main-section" class="flex-grow-1">
             <section id="main-top">
                 <div class="container-fluid">
-                    <div class="row flex-column flex-md-row py-2">
-                        <div class="col order-md-1">1</div>
-                        <div class="col">2</div>
-                        <div class="col">3</div>
+                    <div class="row py-2 text-white">
+                        <div class="col-12 col-md-auto order-md-1">Nuovo studente <a href="#" class="text-white fs-2 ms-2"><i class="fa-regular fa-square-plus"></i></a></div>
+                        <div class="col-12 col-md-auto col-lg-5">
+                            <div class="fs-2">Boolean <span class="fs-6 badge">Piano blaze</span></div>
+                            <div>
+                                <span class="fs-7 badge">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="fs-7 badge d-lg-none">+</span>
+                                <span class="fs-7 badge d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="fs-7 badge d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="fs-7 badge d-none d-lg-inline-block">Boolean blog app</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-auto">
+                            <div>Studenti online negli ultimi 30 giorni</div>
+                            <div class="fs-2">125</div>
+                        </div>
                     </div>
                 </div>
             </section>
