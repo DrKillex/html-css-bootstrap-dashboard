@@ -72,3 +72,20 @@ table img {
     width: 1.875rem;
     margin-right: .625rem;
 }
+
+/* offcanvas */
+
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
+.offcanvas.offcanvas-end input:not(#check),
+.offcanvas.offcanvas-end select {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
+}
